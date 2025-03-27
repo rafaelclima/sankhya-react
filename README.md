@@ -1,63 +1,72 @@
-# Projeto Base React para Sankhya-Om
+# 🚀 Projeto Base React para Sankhya-Om
 
-Este é um projeto base React configurado para integração com o ERP Sankhya-Om. Ele inclui uma estrutura de pastas organizada, configurações para Webpack, Babel, e Tailwind CSS, além de scripts para facilitar a clonagem e atualização de projetos.
+[![React](https://img.shields.io/badge/React-18-blue.svg?logo=react)](https://react.dev/)
+[![Webpack](https://img.shields.io/badge/Webpack-5-blue.svg?logo=webpack)](https://webpack.js.org/)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3-38B2AC.svg?logo=tailwindcss)](https://tailwindcss.com/)
+[![Biome](https://img.shields.io/badge/Biome-Formatter-green.svg?logo=biome)](https://biomejs.dev/)
+[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
-## Pré-requisitos
+Este é um projeto base **React** ⚛️ configurado para integração com o **ERP Sankhya-Om**. Ele inclui uma estrutura organizada, configurações para **Webpack**, **Babel**, **Tailwind CSS**, além de scripts para facilitar a clonagem e atualização de projetos. ✨
 
-Antes de começar, certifique-se de ter instalado em sua máquina:
+---
 
-- Node.js (versão 14.x ou superior)
-- npm (geralmente vem com o Node.js)
-- Git
+## 📌 Pré-requisitos
 
-Você pode verificar as instalações com os seguintes comandos:
+Antes de começar, certifique-se de ter instalado:
 
-bash
+- ✅ **Node.js** (14.x ou superior)
+- ✅ **npm** (geralmente vem com o Node.js)
+- ✅ **Git**
+
+Verifique as instalações com:
+
+```bash
 node --version
 npm --version
 git --version
+```
 
+---
 
-## Clonando o Projeto Base
+## 🔧 Clonando o Projeto Base
 
 Para criar um novo projeto baseado neste template:
 
-1. Navegue até o diretório do projeto base no terminal:
-bash
+```bash
+# Acesse o diretório do projeto base
 cd caminho/para/projeto-base-react-sankhya
 
-2. Execute o script de clonagem:
-bash
+# Execute o script de clonagem
 ./clone-project.sh nome-do-seu-novo-projeto
 
-
-3. Navegue para o novo projeto:
-bash
+# Acesse o novo projeto
 cd ../nome-do-seu-novo-projeto
+```
 
+---
 
-## Estrutura do Projeto
+## 📂 Estrutura do Projeto
 
-Após a clonagem, seu novo projeto terá a seguinte estrutura:
+```plaintext
 nome-do-seu-novo-projeto/
 ├── public/
-│ ├── index.html
-│ └── favicon.ico
+│   ├── index.html
+│   └── favicon.ico
 ├── src/
-│ ├── components/
-│ │ └── common/
-│ ├── pages/
-│ ├── routes/
-│ ├── contexts/
-│ ├── services/
-│ ├── controllers/
-│ ├── hooks/
-│ ├── utils/
-│ ├── styles/
-│ ├── assets/
-│ ├── config/
-│ ├── App.js
-│ └── index.js
+│   ├── components/
+│   │   └── common/
+│   ├── pages/
+│   ├── routes/
+│   ├── contexts/
+│   ├── services/
+│   ├── controllers/
+│   ├── hooks/
+│   ├── utils/
+│   ├── styles/
+│   ├── assets/
+│   ├── config/
+│   ├── App.js
+│   └── index.js
 ├── .babelrc
 ├── .biomeignore
 ├── .gitignore
@@ -66,144 +75,140 @@ nome-do-seu-novo-projeto/
 ├── postcss.config.js
 ├── tailwind.config.js
 └── webpack.config.js
+```
 
+---
 
-## Desenvolvimento
+## 🚀 Desenvolvimento
 
-Para iniciar o desenvolvimento:
+Instale as dependências (caso o script de clonagem não tenha feito isso automaticamente):
 
-1. Instale as dependências (caso o script de clonagem não tenha feito isso):
-bash
+```bash
 npm install
+```
 
-## Build para Produção
+Inicie o ambiente de desenvolvimento:
 
-Para criar uma build de produção:
-bash
+```bash
+npm start
+```
+
+---
+
+## 📦 Build para Produção
+
+Para gerar a build de produção:
+
+```bash
 npm run build
+```
 
-Isso gerará um arquivo `src.zip` na raiz do projeto, que pode ser feito upload para o ERP Sankhya-Om.
+Isso criará um arquivo `src.zip` na raiz do projeto, pronto para ser enviado ao **ERP Sankhya-Om**.
 
-## Atualizando o Projeto Base
+---
 
-Se você fez melhorias no projeto base e deseja aplicá-las a projetos existentes:
+## 🔄 Atualizando o Projeto Base
 
-1. Navegue até o diretório do projeto que deseja atualizar:
-bash
+Se melhorias foram feitas no projeto base e deseja aplicá-las a projetos existentes:
+
+```bash
+# Acesse o diretório do projeto que deseja atualizar
 cd caminho/para/seu-projeto
 
-2. Execute o script de atualização:
-bash
+# Execute o script de atualização
 ./update-base-project.sh
+```
 
-**Nota:** Certifique-se de revisar as mudanças após a atualização, pois podem haver conflitos ou alterações que precisam ser ajustadas manualmente.
+📌 **Nota:** Revise as mudanças após a atualização para evitar conflitos ou ajustes manuais.
 
-## Configurações Adicionais
+---
 
-### Aliases
+## ⚙️ Configurações Adicionais
 
-O projeto está configurado com aliases para facilitar as importações. Você pode usar, por exemplo:
+### 📌 Aliases para Importação
 
-javascript
+O projeto suporta **aliases** para facilitar as importações:
+
+```javascript
 import Button from '@components/Button';
 import HomePage from '@pages/HomePage';
+```
 
-### Tailwind CSS
+### 🎨 Tailwind CSS
 
-O Tailwind CSS está configurado e pronto para uso. Você pode começar a usar as classes utilitárias do Tailwind em seus componentes imediatamente.
+O **Tailwind CSS** está configurado e pronto para uso! Basta adicionar as classes nos seus componentes.
 
-## Biome.js para Formatação e Linting
+---
 
-Este projeto utiliza Biome.js como ferramenta de formatação e linting. O Biome.js é uma ferramenta de desenvolvimento all-in-one que substitui ESLint, Prettier, e outras ferramentas similares.
+## 🛠️ Biome.js para Formatação e Linting
 
-### Configuração
+Este projeto utiliza **Biome.js** 🌿 como ferramenta de formatação e linting, substituindo **ESLint** e **Prettier**.
 
-A configuração do Biome.js está definida no arquivo `biome.json` na raiz do projeto. Este arquivo contém as regras e preferências para formatação e linting.
+### 📋 Comandos úteis
 
-### Uso
+- **Formatar código:**
 
-Para usar o Biome.js em seu projeto:
+  ```bash
+  npx biome format .
+  ```
 
-1. **Formatação de código:**
-   ```bash
-   npx biome format .
-   ```
-   Isso formatará todos os arquivos suportados no projeto.
+- **Linting:**
 
-2. **Linting:**
-   ```bash
-   npx biome lint .
-   ```
-   Isso executará o linter em todos os arquivos suportados.
+  ```bash
+  npx biome lint .
+  ```
 
-3. **Verificação (formatação + linting):**
-   ```bash
-   npx biome check .
-   ```
-   Isso realizará tanto a formatação quanto o linting.
+- **Verificação geral:**
 
-4. **Correção automática:**
-   ```bash
-   npx biome check --apply .
-   ```
-   Isso tentará corrigir automaticamente os problemas encontrados.
+  ```bash
+  npx biome check .
+  ```
 
-### Integração com o Editor
+- **Correção automática:**
 
-Para uma melhor experiência de desenvolvimento, recomenda-se instalar a extensão do Biome.js para seu editor:
+  ```bash
+  npx biome check --apply .
+  ```
 
-- Para VSCode: [Biome Extension](https://marketplace.visualstudio.com/items?itemName=biomejs.biome)
+### 🔌 Integração com VSCode
 
-- Além de realizar as devidas alterações no seu arquivo de configuração do VSCode, como explica a doc do Biome: [Doc Biome](https://biomejs.dev/reference/vscode/)
+Para uma experiência melhor, instale a extensão **Biome.js** no VSCode:
 
-Com a extensão instalada, você terá formatação e linting em tempo real enquanto codifica.
+🔗 [Extensão Biome.js](https://marketplace.visualstudio.com/items?itemName=biomejs.biome)
 
-### Scripts NPM
+⚡ Além disso, configure corretamente seu VSCode seguindo a [documentação oficial](https://biomejs.dev/reference/vscode/).
 
-Para facilitar o uso, os seguintes scripts estão disponíveis no `package.json`:
+---
 
-json
-{
-"scripts": {
-"format": "biome format .",
-"lint": "biome lint .",
-"check": "biome check .",
-"check:apply": "biome check --apply ."
-}
-}
+## 🚨 Problemas Comuns
 
-Você pode executá-los com `npm run <script>`, por exemplo:
+### ❌ Autoimport não funciona no VSCode
 
-bash
-npm run format
-
-### Customização
-
-Se você precisar ajustar as regras do Biome.js, edite o arquivo `biome.json`. Consulte a [documentação oficial do Biome.js](https://biomejs.dev/reference/configuration/) para mais detalhes sobre as opções de configuração disponíveis.
-
-## Problemas Comuns
-
-### Autoimport não funciona
-
-Se o autoimport não estiver funcionando no VSCode:
-
-1. Certifique-se de ter as extensões Biome e React instaladas.
-2. Reinicie o servidor TypeScript: 
+1. Verifique se as extensões **Biome.js** e **React** estão instaladas.
+2. Reinicie o **servidor TypeScript**:
    - Abra a paleta de comandos (Ctrl+Shift+P ou Cmd+Shift+P)
-   - Digite e selecione "TypeScript: Restart TS server"
+   - Digite e selecione **"TypeScript: Restart TS server"**
 
-### Erro ao fazer build
+### ❌ Erro ao fazer build
 
-Se encontrar erros durante o build, verifique:
+1. Certifique-se de que todas as dependências estão instaladas corretamente.
+2. Verifique se há **erros de sintaxe** ou **importações incorretas** no código.
+3. Revise a configuração do `webpack.config.js`.
 
-1. Se todas as dependências estão instaladas corretamente.
-2. Se há erros de sintaxe ou importações incorretas no código.
-3. Se o webpack.config.js está configurado corretamente.
+---
 
-## Contribuindo
+## 🤝 Contribuindo
 
-Sinta-se à vontade para contribuir com este projeto base. Por favor, crie uma issue ou um pull request com suas sugestões de melhorias.
+Fique à vontade para contribuir! 💡
 
-## Licença
+- Crie uma **issue** para relatar problemas ou sugerir melhorias.
+- Faça um **pull request** com suas contribuições.
 
-[MIT](https://choosealicense.com/licenses/mit/)
+---
+
+## 📜 Licença
+
+Este projeto está licenciado sob a **Licença MIT**.
+
+[📜 MIT License](https://choosealicense.com/licenses/mit/)
+
