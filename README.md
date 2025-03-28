@@ -1,10 +1,31 @@
 # 🚀 Projeto Base React para Sankhya-Om
 
-[![React](https://img.shields.io/badge/React-18-blue.svg?logo=react)](https://react.dev/)
-[![Webpack](https://img.shields.io/badge/Webpack-5-blue.svg?logo=webpack)](https://webpack.js.org/)
-[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3-38B2AC.svg?logo=tailwindcss)](https://tailwindcss.com/)
-[![Biome](https://img.shields.io/badge/Biome-Formatter-green.svg?logo=biome)](https://biomejs.dev/)
-[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+<div data-badges>
+  <!-- React Badge -->
+  <a href="https://react.dev/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; transition: transform 0.2s;">
+    <img src="https://img.shields.io/badge/React-18-blue.svg?logo=react" alt="React 18" style="border-radius: 6px; height: 28px;">
+  </a>
+  
+  <!-- Webpack Badge -->
+  <a href="https://webpack.js.org/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; transition: transform 0.2s;">
+    <img src="https://img.shields.io/badge/Webpack-5-blue.svg?logo=webpack" alt="Webpack 5" style="border-radius: 6px; height: 28px;">
+  </a>
+  
+  <!-- TailwindCSS Badge -->
+  <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; transition: transform 0.2s;">
+    <img src="https://img.shields.io/badge/TailwindCSS-3-38B2AC.svg?logo=tailwindcss" alt="TailwindCSS 3" style="border-radius: 6px; height: 28px;">
+  </a>
+  
+  <!-- Biome Badge -->
+  <a href="https://biomejs.dev/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; transition: transform 0.2s;">
+    <img src="https://img.shields.io/badge/Biome-Formatter-green.svg?logo=biome" alt="Biome Formatter" style="border-radius: 6px; height: 28px;">
+  </a>
+  
+  <!-- MIT License Badge -->
+  <a href="https://choosealicense.com/licenses/mit/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; transition: transform 0.2s;">
+    <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="MIT License" style="border-radius: 6px; height: 28px;">
+  </a>
+</div>
 
 Este é um projeto base **React** ⚛️ configurado para integração com o **ERP Sankhya-Om**. Ele inclui uma estrutura organizada, configurações para **Webpack**, **Babel**, **Tailwind CSS**, além de scripts para facilitar a clonagem e atualização de projetos. ✨
 
